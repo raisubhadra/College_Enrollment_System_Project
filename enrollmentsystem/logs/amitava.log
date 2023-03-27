@@ -1,0 +1,30 @@
+2023-03-27 14:09:56.215  INFO 15064 --- [main] com.enroll.EnrollmentsystemApplication   : Starting EnrollmentsystemApplication using Java 17.0.6 on DESKTOP-A457NUK with PID 15064 (C:\Users\chetn\eclipse-workspace\Sts-march2023\sts-4.17.2.RELEASE\Projects 2023\enrollmentsystem\enrollmentsystem\target\classes started by chetn in C:\Users\chetn\eclipse-workspace\Sts-march2023\sts-4.17.2.RELEASE\Projects 2023\enrollmentsystem\enrollmentsystem)
+2023-03-27 14:09:56.240  INFO 15064 --- [main] com.enroll.EnrollmentsystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-27 14:09:57.983  INFO 15064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-27 14:09:58.289  INFO 15064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 255 ms. Found 4 JPA repository interfaces.
+2023-03-27 14:10:00.593  INFO 15064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10000 (http)
+2023-03-27 14:10:00.649  INFO 15064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-27 14:10:00.651  INFO 15064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-03-27 14:10:01.140  INFO 15064 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-27 14:10:01.141  INFO 15064 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4803 ms
+2023-03-27 14:10:01.251  INFO 15064 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-27 14:10:02.018  INFO 15064 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-27 14:10:02.054  INFO 15064 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2amitava'. Database available at 'jdbc:h2:mem:subhadra'
+2023-03-27 14:10:02.440  INFO 15064 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-27 14:10:02.622  INFO 15064 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-03-27 14:10:03.190  INFO 15064 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-27 14:10:03.588  INFO 15064 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-27 14:10:05.644  INFO 15064 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-27 14:10:05.682  INFO 15064 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-27 14:10:06.760  WARN 15064 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-27 14:10:07.733  INFO 15064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 10000 (http) with context path ''
+2023-03-27 14:10:07.754  INFO 15064 --- [main] com.enroll.EnrollmentsystemApplication   : Started EnrollmentsystemApplication in 12.805 seconds (JVM running for 14.511)
+2023-03-27 14:11:16.763  INFO 15064 --- [http-nio-10000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27 14:11:16.764  INFO 15064 --- [http-nio-10000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-27 14:11:16.774  INFO 15064 --- [http-nio-10000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2023-03-27 14:15:25.083  INFO 15064 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-27 14:15:25.136  INFO 15064 --- [RMI TCP Connection(8)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-27 14:15:25.142  INFO 15064 --- [RMI TCP Connection(8)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-27 14:15:25.177  INFO 15064 --- [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-27 14:15:25.183  INFO 15064 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-27 14:15:25.192  INFO 15064 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
